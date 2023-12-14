@@ -1,0 +1,87 @@
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+}
+.btn-outline-success {
+  color: white;
+  border-color: white;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: blue;
+}
+.display-1 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.banner {
+  min-height: 400px;
+  color: #fff;
+  background-image: url("../images/1625738659_53-kartinkin-com-p-matematika-oboi-krasivie-57.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 520px) {
+  .display-1 {
+    font-size: 2rem;
+  }
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Roboto Slab", serif;
+}
+.col-12 {
+  text-align: center;
+}
+.display-4 {
+  font-family: "Roboto Slab", serif;
+}
+.info {
+  font-family: "Roboto Slab", serif;
+  color: #000;
+}
+.contacts_link {
+  list-style: none;
+}
+.fa {
+  font-size: 26px;
+  color: #000;
+}
+.contacts_link a {
+  text-decoration: none;
+  display: flex;
+  gap: 8px;
+  color: black;
+}
+a {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul li {
+  margin-top: 6px;
+}
+.footer ul li a .fa {
+  color: rgb(136, 136, 136);
+}
+p {
+  color: #fff;
+}
+p .fa {
+  color: rgb(136, 136, 136);
+}
