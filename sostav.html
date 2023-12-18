@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Preahvihear&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: rgba(255, 193, 7)"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="images/logo.png"
+              alt=""
+              width="60px"
+              style="padding: 0; margin: 0"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="kafedra.html"
+                  >Состав кафедры</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  опции
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="поиск..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Найти
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="card_main">
+        <div class="container">
+          <h2 class="display-2 text-center text-uppercase mb-5">
+            Состав кафедры
+          </h2>
+          <div class="cards">
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ф.-м.и.д., профессор Джураев Абубакир Мухтарович
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ф.-м.и.д, пофессор Алыбаев Курманбек Сарманович
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  п.и.к., доцент Аванова Жылдыз Авановна
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">п.и.к., доцент Ураимхалилова Аширкан</h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  т.и.к., доцент м.а. Куваков Сталбек Жеңишбекович
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ага окутуучу Бримкулов Шамшар Карачбаевич
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ага окутуучу Маткаримова Минавар Шарабидиновна
+                </h5>
+                <p class="card-text">
+                  Математика жана математикалык моделдештирүү кафедрасынын
+                  башчысы:
+                </p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Шарапов Сардорбек Тургунович</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Нурматова Майрамгул Нарбековна</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Бекназарова Махабат Кудайбердиевна</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Мусакулова Назгүл Куралбековна</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Сыдыкова Бактыгүл Базарбаевна</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="images/Абу-бакир-агай.jpg"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Эрматали уулу Баяман</h5>
+                <p class="card-text">ага окутуучу</p>
+                <a href="#" class="btn btn-primary">подробно...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-warning text-dark text-center p-4">
+      <div class="container footer">
+        <ul>
+          <li><a href="">Мы в соц.сетях</a></li>
+          <li>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+
+        <ul>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Адрес: г.Жалал-Абад, ул.​Ленина 57 <br />
+            <i class="fa fa-phone" aria-hidden="true"></i> Тел/факс: +996 778 14
+            89 76 <br />
+            <i class="fa fa-wrench" aria-hidden="true"></i>Поддержка сайта: +996
+            773 18 79 18
+            <br />
+
+            <i class="fa fa-envelope" aria-hidden="true"></i>Электронный адрес:
+            iet-1-20@jagu.kg
+          </p>
+        </ul>
+        <ul>
+          <p class="m-0">&copy; Жалал-Абад. 2023</p>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
