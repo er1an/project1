@@ -175,3 +175,6 @@ p .fa {
     flex-direction: column;
   }
 }
+.langs {
+  margin-right: 8px;
+}
