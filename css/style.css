@@ -178,3 +178,10 @@ p .fa {
 .langs {
   margin-right: 8px;
 }
+.slider {
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none;
+}
